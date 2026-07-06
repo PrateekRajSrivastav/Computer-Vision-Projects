@@ -1,0 +1,130 @@
+The requirements.txt file should contain only the names of the Python packages our notebook needs. Based on notebook, a clean and professional requirements.txt would be:
+
+| Package         | Purpose                                             |
+| --------------- | --------------------------------------------------- |
+| `opencv-python` | Computer Vision and image processing                |
+| `numpy`         | Numerical computations and array operations         |
+| `matplotlib`    | Visualization and plotting                          |
+| `tensorflow`    | Deep learning and CNN implementation                |
+| `keras`         | High-level neural network API                       |
+| `scipy`         | Scientific computing and image processing utilities |
+| `Pillow`        | Image loading and manipulation                      |
+| `scikit-learn`  | Machine learning utilities (if used)                |
+| `jupyter`       | Running notebooks locally                           |
+| `ipykernel`     | Jupyter kernel support                              |
+
+
+# Computer Vision Projects using OpenCV & TensorFlow
+
+## 📌 Overview
+
+This repository contains a collection of Computer Vision and Digital Image Processing projects implemented using **Python**, **OpenCV**, **TensorFlow**, **NumPy**, and **Matplotlib**. The notebook demonstrates various image processing techniques, feature extraction methods, and deep learning concepts used in modern computer vision applications.
+
+The projects cover image enhancement, geometric transformations, histogram processing, filtering, segmentation, feature detection, edge detection, and Convolutional Neural Network (CNN)-based image classification.
+
+---
+
+## 🚀 Features
+
+* Image Color Transformations (Grayscale, Binary, Sepia)
+* Image Geometric Transformations (Translation, Rotation, Scaling)
+* Negative, Log, and Gamma Transformations
+* Histogram Equalization
+* Histogram Matching
+* Image Enhancement
+* Spatial and Frequency Domain Filtering
+* Image Restoration and Denoising
+* Morphological Operations
+* Pseudo Coloring
+* Skin Detection using RGB and HSV Color Spaces
+* Harris Corner Detection
+* Boundary Linking
+* Canny Edge Detection
+* CNN-based Image Classification using TensorFlow (CIFAR-10)
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* OpenCV
+* TensorFlow
+* Keras
+* NumPy
+* Matplotlib
+* SciPy
+* Pillow
+* Jupyter Notebook
+
+---
+
+## 📂 Repository Structure
+
+```text
+Computer-Vision-Projects/
+│
+├── CV.ipynb
+├── README.md
+├── requirements.txt
+├── images/
+
+```
+
+---
+
+## ▶️ Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/Computer-Vision-Projects.git
+cd Computer-Vision-Projects
+```
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the notebook
+
+Open `CV.ipynb` in **Jupyter Notebook** or **Google Colab** and execute the cells sequentially.
+
+---
+
+## 📖 Learning Outcomes
+
+Through these projects, I explored:
+
+* Digital Image Processing
+* Computer Vision Fundamentals
+* Image Enhancement Techniques
+* Feature Detection and Extraction
+* Edge Detection Algorithms
+* Morphological Image Processing
+* Image Segmentation
+* Deep Learning using Convolutional Neural Networks (CNNs)
+* Image Classification with TensorFlow
+
+---
+
+## 🎯 Future Improvements
+
+* Real-Time Object Detection using YOLOv8
+* Face Detection and Recognition
+* Image Segmentation using U-Net
+* Vision Transformers (ViT)
+* Real-Time Video Analytics
+
+---
+
+## 🤝 Contributions
+
+Contributions, suggestions, and improvements are welcome. Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is available for educational and learning purposes.
